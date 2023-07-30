@@ -10,7 +10,7 @@ form.addEventListener('submit', (event) => {
   const searchName = input.value;
 
   // Fetch data from the API based on the search input
-  fetch(`https://graph.facebook.com/search?type=adinterest&q=[${searchName}]&limit=10000&locale=en_US&access_token=EAASZCPzgFwIgBO7k5PAYTZBg2BwVCo0RouoXRumtUjRHV11o2NWTN6MBciWHHnvpte0U1fgmVMZCx2ILoL839e9Tmi5egTpVXBQkitTMRLRlrZCZAlBOWwsCiyqgZAad457BNZAnqD58SiMyzEweY1fUyR7TRmStk9xSXbBwdXMTFyfnzfhq4ZBMQkCVVdqS3xoZCz09tSjGGUZCYWZAkTKZCXcskZCsRS5K1XZAWNsjZA57ClWwyHyY5J9CCUYeIun5Kz6KKxtIYBy5mziRIsZD`)
+  fetch(`https://graph.facebook.com/search?type=adinterest&q=[${searchName}]&limit=10000&locale=en_US&access_token=1336178150588552|_qfjha-eGKMsKOAeK8UoVkfV3ME`)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
