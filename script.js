@@ -10,7 +10,7 @@ form.addEventListener('submit', (event) => {
   const searchName = input.value;
 
   // Fetch data from the API based on the search input
-  fetch(`https://graph.facebook.com/search?type=adinterest&q=[${searchName}]&limit=10000&locale=en_US&access_token=1336178150588552|_qfjha-eGKMsKOAeK8UoVkfV3ME`)
+  fetch(`https://graph.facebook.com/search?type=adinterest&q=[${searchName}]&limit=100000&locale=en_US&access_token=1336178150588552|_qfjha-eGKMsKOAeK8UoVkfV3ME`)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -28,6 +28,8 @@ form.addEventListener('submit', (event) => {
       console.error('Error:', error.message);
     });
 });
+
+//  code to print hello world five times
 
 function populateTable(data) {
   let tableHTML = '';
