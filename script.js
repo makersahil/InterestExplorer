@@ -49,6 +49,6 @@ function populateTable(data) {
     `;
   });
 
-  // Insert the generated table rows into the table body
-  tableBody.innerHTML = tableHTML;
+  // Insert the generated tableL rows into the table body
+  tableBody.innerHTML = tableHTM;
 }
