@@ -50,5 +50,5 @@ function populateTable(data) {
   });
 
   // Insert the generated tableL rows into the table body
-  tableBody.innerHTML = tableHTM;
+  tableBody.innerHTML = tableHTML;
 }
