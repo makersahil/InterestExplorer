@@ -44,7 +44,7 @@ function populateTable(data) {
     <td class="w-10 text-center">
     ${item.topic}
     </td>
-    <td class="px-4 py-3">${item.disambiguation_category}</td>
+    <td class="px-4 py-3">${((item.disambiguation_category) ? item.disambiguation_category : "Not Available")}</td>
   </tr>
     `;
   });
